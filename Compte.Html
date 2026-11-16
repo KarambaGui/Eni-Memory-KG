@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compte</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
      <header>
     <nav>
-        <ul>
+        <ul class="navi">
             <li><a href="index.html">Acceuil</a></li>
             <li><a href="inscription.html">Inscription</a></li>
             <li><a href="compte.html">Compte</a></li>
@@ -22,9 +22,12 @@
             <p>Bienvenue dans votre espace personnel !</p>
 
             Formulaire de connexion :
-            <form id="loginForm">
+            <form id="loginForm" method="post">
                 <label for="username">Nom d'utilisateur :</label>
                 <input type="text" id="username" name="username" required>
+                <br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>   
                 <br>
                 <label for="password">Mot de passe :</label>
                 <input type="password" id="password" name="password" required>

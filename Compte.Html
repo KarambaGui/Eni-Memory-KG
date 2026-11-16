@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compte</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
      <header>
@@ -14,6 +16,21 @@
             <li><a href="compte.html">Compte</a></li>
             <li><a href="jeu.html">Jeu</a></li>
         </ul>
+
+        <main>
+            <h1>Mon Compte</h1>
+            <p>Bienvenue dans votre espace personnel !</p>
+
+            Formulaire de connexion :
+            <form id="loginForm">
+                <label for="username">Nom d'utilisateur :</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <button type="submit">Se connecter</button>
+        </main>
    </header>
     
 </body>

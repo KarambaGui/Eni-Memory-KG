@@ -235,6 +235,7 @@ fabric.properties
 .history
 .ionide
 
-.Ressource
+
+ressources/
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
